@@ -29,6 +29,7 @@ jobs:
     - name: execute test
       run: |
            cd /usr/src/app
+           npm install cypress
            npx cypress run --spec "cypress/e2e/api_tests/postsAPI.cy.js"
            npx cypress run --spec "cypress/e2e/ui_tests/verifyGamePage.cy.js"
     needs: 
