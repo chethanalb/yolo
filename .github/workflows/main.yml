@@ -29,7 +29,8 @@ jobs:
     - name: execute test
       run: |
            cd /usr/src/app
-           npm cypress run --spec "cypress/e2e/ui_tests/posts_API.cy.js"
-           npm cypress run --spec "cypress/e2e/api_tests/verifyGamePage.cy.js"
+           ls
+           npx cypress run --spec "cypress/e2e/ui_tests/posts_API.cy.js"
+           npx cypress run --spec "cypress/e2e/api_tests/verifyGamePage.cy.js"
     needs: 
       - docker_build
