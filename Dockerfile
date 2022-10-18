@@ -5,5 +5,5 @@ FROM cypress/base
 WORKDIR /usr/src/app
 
 COPY . .
-RUN npm install cypress
+
 RUN npm ci
