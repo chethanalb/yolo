@@ -5,7 +5,7 @@ const baseURL = 'https://gorest.co.in';
 
 describe('validate post APIs', () =>{
 
-let token = 'Bearer 6844e7a9c270fd602f0f1b0e2593e7a80c20d9988a0ee18b2eee9167c0f5a287'
+let token = 'Bearer b956717a3a60540f0bf2159475442dee446825c6e5e7cb8b1db3c33c69438a3d'
 let postId = 'abc'
 
 it('create post data - POST', () =>{
@@ -17,7 +17,7 @@ it('create post data - POST', () =>{
         'Authorization': token
     },
     body:{
-        "user_id":"3609",
+        "user_id":"3087",
         "title": "Sample Title",
         "body": "Sample Body"
     } }).then(function(response){
