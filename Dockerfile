@@ -1,5 +1,5 @@
 #Step 0: Choose base
-FROM cypress/base
+FROM cypress/included
 
 
 WORKDIR /usr/src/app
