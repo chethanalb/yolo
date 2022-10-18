@@ -1,5 +1,5 @@
 #Step 0: Choose base
-FROM cypress/included:3.4.0
+FROM cypress/base
 
 
 WORKDIR /usr/src/app
