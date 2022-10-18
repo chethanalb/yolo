@@ -31,7 +31,7 @@ jobs:
            cd /usr/src/app
            ls
            npm install cypress
-           npx cypress run --spec "cypress/e2e/*"
-          # npx cypress run --spec "cypress/e2e/api_tests/verifyGamePage.cy.js"
+           npx cypress run --spec "cypress/e2e/ui_tests/postsAPI.cy.js"
+           npx cypress run --spec "cypress/e2e/api_tests/verifyGamePage.cy.js"
     needs: 
       - docker_build
