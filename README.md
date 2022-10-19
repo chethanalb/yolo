@@ -40,7 +40,8 @@ Task is integrated with the following,
 ![enter image description here](https://ibb.co/XLfRgDk)
 
  - Click on image name and open terminal in next page
- ![enter image description here](https://ibb.co/pynD3V7)
+ [url=https://ibb.co/pynD3V7][img]https://i.ibb.co/sHtSFxf/Screenshot-2022-10-19-at-16-21-43.png[/img][/url]
+[url=https://usefulwebtool.com/web-safe-fonts]web safe fonts for email[/url]
  
  - Execute **npm install cypress** command in terminal
  - Execute **npx cypress run --spec "cypress/e2e/api_tests/postsAPI.cy.js"** command to run API tests.
