@@ -26,7 +26,7 @@ Task is integrated with the following,
 - Execute **npx cypress run --spec "cypress/e2e/api_tests/postsAPI.cy.js"** command to run API tests.
 - Execute **npx cypress run --spec "cypress/e2e/ui_tests/verifyGamePage.cy.js"** command to run UI tests.
 
-## How to run using docker image
+## How to run using docker image (Windows)
 
 **Prerequisites,**
 
@@ -45,3 +45,10 @@ Task is integrated with the following,
  - Execute **npm install cypress** command in terminal
  - Execute **npx cypress run --spec "cypress/e2e/api_tests/postsAPI.cy.js"** command to run API tests.
  - Execute **npx cypress run --spec "cypress/e2e/ui_tests/verifyGamePage.cy.js"** command to run UI tests.
+
+**Results**
+
+![image](https://postimg.cc/gLkF43ZM)
+![image](https://postimg.cc/XXVbV6zw)
+![image](https://postimg.cc/2bxN40Vb)
+
