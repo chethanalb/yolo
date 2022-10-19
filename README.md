@@ -22,7 +22,6 @@ Task is integrated with the following,
  - Import the project in to VScode
 ![image](https://i.postimg.cc/Fsc0p3FL/vscode.png)
 
-- Execute **npm install cypress** command in terminal
 - Execute **npx cypress run --spec "cypress/e2e/api_tests/postsAPI.cy.js"** command to run API tests.
 - Execute **npx cypress run --spec "cypress/e2e/ui_tests/verifyGamePage.cy.js"** command to run UI tests.
 
@@ -42,7 +41,6 @@ Task is integrated with the following,
  - Click on image name and open terminal in next page
 ![image](https://i.postimg.cc/7Zn0842P/terminal.png)
  
- - Execute **npm install cypress** command in terminal
  - Execute **npx cypress run --spec "cypress/e2e/api_tests/postsAPI.cy.js"** command to run API tests.
  - Execute **npx cypress run --spec "cypress/e2e/ui_tests/verifyGamePage.cy.js"** command to run UI tests.
 
