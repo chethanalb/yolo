@@ -17,10 +17,10 @@ Task is integrated with the following,
 
  - Clone the repository using clone URL
 
-![enter image description here](https://ibb.co/dDs8P1z)
+![image](https://i.postimg.cc/zDyCL49p/clone.png)
 
  - Import the project in to VScode
- ![enter image description here](https://ibb.co/FmwVdMb)
+![image](https://i.postimg.cc/Fsc0p3FL/vscode.png)
 
 - Execute **npm install cypress** command in terminal
 - Execute **npx cypress run --spec "cypress/e2e/api_tests/postsAPI.cy.js"** command to run API tests.
@@ -37,11 +37,10 @@ Task is integrated with the following,
  - Download the docker image using "docker pull ubandc2/chethana:c84a3249eedc514d0ed55d150638e99bfeff1796" command
 
  - Open docker application and run the pulled docker image
-![enter image description here](https://ibb.co/XLfRgDk)
+![image](https://i.postimg.cc/MGZRzL77/run.png)
 
  - Click on image name and open terminal in next page
- [url=https://ibb.co/pynD3V7][img]https://i.ibb.co/sHtSFxf/Screenshot-2022-10-19-at-16-21-43.png[/img][/url]
-[url=https://usefulwebtool.com/web-safe-fonts]web safe fonts for email[/url]
+![image](https://i.postimg.cc/7Zn0842P/terminal.png)
  
  - Execute **npm install cypress** command in terminal
  - Execute **npx cypress run --spec "cypress/e2e/api_tests/postsAPI.cy.js"** command to run API tests.
